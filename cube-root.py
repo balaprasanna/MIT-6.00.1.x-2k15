@@ -1,4 +1,5 @@
 x = int(raw_input('ENTER A NUMBER TO FIND CUBE ROOT'))
+x = abs(x)
 ans = 0
 while (ans**3 < x):
     ans += 1
